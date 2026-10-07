@@ -1,0 +1,73 @@
+
+========================================
+   ANALYSIS REPORT
+   Generated: 2026-04-19 08:23:45.027683
+========================================
+
+1. DATA COLLECTION
+   - Total reviews: 425
+   - Source: r/algeriarates and r/algeria
+
+2. BASIC STATISTICS
+   - Average score: 23.38
+   - Highest score: 865
+   - Average comments: 18.44
+   - Most discussed category: appliances
+
+3. CATEGORY DISTRIBUTION
+   - appliances: 246 (57.9%)
+   - food: 118 (27.8%)
+   - electronics: 43 (10.1%)
+   - cosmetics: 18 (4.2%)
+
+4. MOST FREQUENT WORDS (TOP 15)
+   1. 'i': 1186 times
+   2. 'algeria': 302 times
+   3. 'my': 257 times
+   4. 'if': 163 times
+   5. 'me': 160 times
+   6. 'algerian': 159 times
+   7. 'about': 158 times
+   8. 'what': 156 times
+   9. 'can': 148 times
+   10. 'how': 118 times
+   11. 'know': 116 times
+   12. 'people': 100 times
+   13. 'who': 91 times
+   14. '10': 87 times
+   15. 'one': 85 times
+
+5. CATEGORY ANALYSIS
+
+   FOOD:
+   - Reviews: 118 (27.8%)
+   - Average score: 22.30
+   - Top words: i, my, 10, me, algeria
+
+   COSMETICS:
+   - Reviews: 18 (4.2%)
+   - Average score: 22.89
+   - Top words: i, hair, care, my, really
+
+   ELECTRONICS:
+   - Reviews: 43 (10.1%)
+   - Average score: 17.63
+   - Top words: i, my, me, phone, algeria
+
+   APPLIANCES:
+   - Reviews: 246 (57.9%)
+   - Average score: 24.94
+   - Top words: i, algeria, algerian, my, what
+
+6. KNN CLASSIFICATION (K-Nearest Neighbors)
+   - Algorithm: KNN (supervised classification)
+   - Features used: score, comments, text_length
+   - Target: category (product type)
+   - Train/Test split: 80% / 20%
+   - K value used: 5
+   - Accuracy with K=5: 61.18%
+   - Best K found: K=5 (accuracy: 61.18%)
+
+========================================
+   END OF REPORT
+========================================

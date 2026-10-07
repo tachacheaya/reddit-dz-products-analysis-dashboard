@@ -1,0 +1,11 @@
+﻿metric,value,type
+total_reviews,425,integer
+average_score,23.378823529411765,float
+highest_score,865,integer
+average_comments,18.435294117647057,float
+total_comments,7835,integer
+average_length,284.8776470588235,float
+most_discussed_category,appliances,string
+knn_accuracy_k5,61.18,float
+knn_best_k,5,integer
+knn_best_accuracy,61.18,float
